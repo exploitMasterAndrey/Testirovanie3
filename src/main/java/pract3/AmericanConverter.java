@@ -2,22 +2,22 @@ package pract3;
 
 public class AmericanConverter {
     public static Double convertSmToDm(double sm){
-        return 0d;
+        return sm / 2.54;
     }
 
     public static Double convertDmToFoot(double dm){
-        return 0d;
+        return dm / 12;
     }
 
     public static Double convertFootToYard(double foot){
-        return 0d;
+        return foot / 3;
     }
 
     public static Double convertYardToMile(double yard){
-        return 0d;
+        return yard / 1.760;
     }
 
     public static Double convertDmToHand(double dm){
-        return 0d;
+        return dm / 4;
     }
 }
